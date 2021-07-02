@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "manifest_version": 2,
+    "name":"Youtube Transcript Summarizer",
+    "description":"Shows summarized text for a youtube video transcript",
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"index.html"
+    }
+}
