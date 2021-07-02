@@ -11,7 +11,11 @@ A Chrome extension which uses python nlp to summarize a youtube video transcript
 
 Install my-project with npm
 
-```bash 
+```bash
+  git clone https://github.com/anoopaneesh/youtube-transcript-summarizer.git
+  cd youtube-transcript-summarizer/server
+  pip install -r requirements.txt
+  python api.py
   go to chrome://extensions
   enable developer options
   click on load unpacked
